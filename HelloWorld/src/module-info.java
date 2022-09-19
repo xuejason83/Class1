@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author whenh
- *
- */
-module HelloWorld {
-}
