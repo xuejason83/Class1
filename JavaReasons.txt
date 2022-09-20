@@ -1,0 +1,10 @@
+Java is a really valuable talent, especially given how quickly technology is developing and how common it will be in the future. Because of this, knowing how to code will become increasingly important. There are many different programming languages, but Java is among the best. It is one of the most extensively used languages and has many uses. Although Python is an excellent language as well, complex systems cannot be made with it since it is too slow and inefficient. For this reason, Java is essential.
+- faster programming language than python
+- popular
+- easy to design/code things
+- fun 
+- lots of keywords/easy and userfriendly
+- useful (fast and reliable)
+- can make almost anything
+- apps
+
