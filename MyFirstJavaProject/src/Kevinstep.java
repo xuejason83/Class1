@@ -1,27 +1,32 @@
-
 public class Kevinstep 
 
 {
 	public static void main(String[] args) {
-		int steps=4;
+		int steps=9;
 		System.out.println("Possiblity:" +P(steps));
 	}
+	
+	
 	public static int P(int steps) {
 		
+		int ret ;
+		
 		if(steps<=0){
-			return 0;
+			ret =  0;
 		}
 		else if(steps==1) {
-			return 1;
+			ret =  1;
 		}
 		else if(steps==2) {
-			return 2;
+			ret = 2;
 		}
 		else if(steps==3) {
-			return 4;
+			ret =  4;
 		}
 		else{
-			return P(steps-1) + P(steps -2) + P(steps -3) ;
+			ret = P(steps -1) + P(steps -2) + P(steps -3) ;
 		}
+		
+		return ret ;
 	}
 }
