@@ -67,10 +67,10 @@ class tennisPlayer {
 		while (check) {
 			System.out.println("Input player that won");
 			winPlayer = sc.nextLine();
-			if (winPlayer == player1) {
+			if (winPlayer.equals(player1)) {
 				p1.calcScore();
 			
-			} else if (winPlayer == player2) {
+			} else if (winPlayer.equals(player2)) {
 				p2.calcScore();
 				
 			} else {
