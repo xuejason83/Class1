@@ -16,3 +16,5 @@ Through this task we will learn:
         2. Adding agenda item.
         3. Delete agenda item.
         4. Search agenda.
+        
+All of the class variables defined as private. Then define public get and set function for the variable. 
