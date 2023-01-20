@@ -18,3 +18,22 @@ Through this task we will learn:
         4. Search agenda.
         
 All of the class variables defined as private. Then define public get and set function for the variable. 
+
+
+
+Demo:
+
+1. Add agenda item:
+Which day?
+Monday
+What is the start time?
+2:00 PM
+How long will it take?
+1 hour
+
+Update file.
+
+Monday:2:00-3:00,English;3:00-4:00, French.
+Tuesday:2:00-3:00. English; 5:00-6:00,Math.
+........
+
