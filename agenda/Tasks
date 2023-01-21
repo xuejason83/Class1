@@ -8,7 +8,7 @@ Through this task we will learn:
      1) define a Subject class.(like name:math, time:3：00pm, length(hour) 1,left time(hour): 0.3)
      2) define a DailyArrange class.(this class will include an array of subject class)
      3) define a FileHandler class.(This class will create, read, write file)
-     3) define a Main class.(this class will include main method and the main command)
+     4) define a Main class.(this class will include main method and the main command)
 2. When the main class started, checking whether a file name as agenda.txt is exist. If not create this file.
 3. When the step 2 finished, showing a command list as below:
      Choose the options you want:
@@ -16,3 +16,32 @@ Through this task we will learn:
         2. Adding agenda item.
         3. Delete agenda item.
         4. Search agenda.
+
+
+	Monday:1:00-2:00,English;2:00-3:00,Math;
+	Tuesday:1:00-2:00,English;2:00-3:00,Math;
+	Wednesday:1:00-2:00,English;2:00-3:00,Math;
+
+
+
+	Monday:  1:00-2:00   2:00-3:00
+	          English     Math
+		  		  
+				  Tuesday:  1:00-2:00   2:00-3:00
+				            English     Math
+
+
+					    1 Add new Item.
+					    Which day?
+					    Monday
+					    What is the start time?
+					    1:00pm
+					    What is the subject name?
+					    English
+					    What is the duration?
+					    1h
+
+
+					    SaveToFile(dararrange[])
+
+
