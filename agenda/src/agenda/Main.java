@@ -5,7 +5,9 @@ import java.util.ArrayList;
 public class Main {
 	
 	public static void main(String[] args) {
-		ArrayList<DailyArrange> days = new ArrayList<>();
+		FileHandler.getFile();
+		FileHandler fH = new FileHandler();
+		ArrayList<DailyArrange> days = new ArrayList<>(fH.readFromFile());
 		//add item  I only show how to handle the ArrayList, the logic need you to modify and control
 		//variables I am using public directly read it, you will need to use get and set to control it.
 		{
@@ -22,8 +24,8 @@ public class Main {
 		    days.add(dayTest);
 		}
 		// TODO Auto-generated method stub
-        FileHandler.getFile();
-        FileHandler fH = new FileHandler();
+        
+        
         fH.writeToFile(days);
         try {
 			if (days.size() == 0)

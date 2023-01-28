@@ -1,9 +1,11 @@
 package agenda;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class FileHandler {
 	public static File agendaFile;
@@ -46,5 +48,35 @@ public class FileHandler {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+    }
+    
+    
+    public ArrayList<DailyArrange> readFromFile() {
+    	ArrayList<DailyArrange> result = new ArrayList<>();
+    	//Monday|1:00,1,English;2:00,1,Math;
+        Scanner myReader;
+		try {
+			myReader = new Scanner(agendaFile);
+			while (myReader.hasNextLine()) {
+		          String data = myReader.nextLine();
+		          String[] dayArrange = data.split("|");
+				  DailyArrange obj = new DailyArrange(dayArrange[0]);
+		          String[]  subjects = dayArrange[1].split(";");
+		          for (String sub : subjects) {
+		        	  String[] subDetails = sub.split(",");
+		        	  obj.addSubject(subDetails[2], subDetails[0], Integer.parseInt(subDetails[1]));
+		          }
+		          result.add(obj);
+		          System.out.println(data);
+		        }
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        
+    	
+    	
+    	return result;
+    	
     }
 }
