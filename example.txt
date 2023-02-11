@@ -28,3 +28,12 @@ Add agenda
       1). Organize the content of the array as a String.   //String can +.  Need to know how to add a line change.
 	  2). ALl of the need information need get function.
       2). Write file.	  
+      
+      
+      
+      
+      Feb 10 homework:
+      
+      Writing the game class and game test class. Fix the exist bug.
+      Finish the add agenda work. 
+      Finish the display agenda work.(draw flow chart, prepcode).
