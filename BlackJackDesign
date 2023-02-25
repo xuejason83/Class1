@@ -1,0 +1,14 @@
+Main Class:
+     Start game()
+	 Show option()
+Player:
+     Variable: Name, cards,score
+	 Method: get/set.   Reset cards.
+Game:
+     Variable:  Two players object.   
+	            Move object.
+	  Mthod: StartGame,  init cards, Listen action, call Move method execute next step, decide Success/Fail, calculator score.
+Move: Variable Cards object,
+      Method   hit, 
+Cards: Variable  4 array, every array 13 cards.
+       Method: getCard, update card list, resetCards. Convert
