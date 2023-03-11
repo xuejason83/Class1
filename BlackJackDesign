@@ -2,7 +2,7 @@ Main Class:
      Start game()
 	 Show option()
 Player:
-     Variable: Name, cards,score
+     Variable: Name, cards,score, finished
 	 Method: get/set.   Reset cards.
 Game:
      Variable:  Two players object.   
