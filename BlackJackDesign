@@ -3,11 +3,11 @@ Main Class:
 	 Show option()
 Player:
      Variable: Name, cards,score, finished
-	 Method: get/set.   Reset cards.Listen action
+	 Method: get/set.   Reset cards.Listen action,calculator score
 Game:
      Variable:  Two players object.   
 	            Move object.
-	  Mthod: StartGame,  init cards,  call Move method execute next step, decide Success/Fail, calculator score.
+	  Mthod: StartGame,  init cards,  call Move method execute next step, decide Success/Fail, .
 Move: Variable Cards object,
       Method   hit, 
 Cards: Variable  4 array, every array 13 cards.
