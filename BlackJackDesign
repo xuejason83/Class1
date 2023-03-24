@@ -12,3 +12,39 @@ Move: Variable Cards object,
       Method   hit, 
 Cards: Variable  4 array, every array 13 cards.
        Method: getCard, update card list, resetCards. Convert
+
+public class Game {
+    Player player1;
+    Player player2;
+    Move move;
+    Game() {
+    	player1 = new Player();
+    	player2 = new Player();
+    	move = new Move();
+    }
+    
+    public void startGame() {
+    	//init one cards for every player.
+    	//Display 1st cards for two player.  Nmae: cards,,,,,cards2, cards3.....
+    	//Start loop to getCard.
+    	//check result(
+    }
+    
+    public void initCards() {
+    	//call move to get card for player1. player1 add cards.
+    	//call move to get card for player2. player2 add cards.
+    }
+    
+    public void playGame() {
+    	//while loop, if not both player finished true
+    	//rotate to trip get card through Move.hit. (Before get cards for player check the finished tag. 
+    	   //call listen action to check whether player wants card. if don't want, set finished to true.
+    	//add cards to the players.
+    	//check player1 score, if score >=21 , set finished to true.
+    	//display card for both.
+
+    }
+    public boolean checkresult() {
+    	//compare the player.score.
+    	
+    }
